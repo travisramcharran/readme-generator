@@ -53,7 +53,7 @@ const questions = [
         
         message:"What license is being used?",
         
-        choices: ["MIT", "Boost", "None"],
+        choices: ["MIT", "None"],
     },
     {
         

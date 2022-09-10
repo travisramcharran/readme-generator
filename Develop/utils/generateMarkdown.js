@@ -3,9 +3,8 @@
 function renderLicenseBadge(License) {
   if (License === "MIT") {
     return `[![MIT License](https://img.shields.io/badge/License-MIT-blue)](https://choosealicense.com/licenses/mit/)`;
-  }else if (License === "Boost"){
-    return `[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)`;
-  }else {
+  }
+else {
     return ``;
   }
 }
@@ -15,9 +14,8 @@ function renderLicenseBadge(License) {
 function renderLicenseLink(License) {
   if (License === "MIT") {
     return  `[MIT License](https://choosealicense.com/licenses/mit/)`;
-  } else if (License === "Boost"){
-    return `[Boost License](https://choosealicense.com/licenses/bsl-1.0/)`;
-  }else {
+  } 
+  else {
     return ``;
   }
 }
